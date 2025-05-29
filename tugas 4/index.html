@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-Galaxy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-white">
+
+  <!-- Header -->
+  <header class="w-full fixed bg-black text-white p-4 flex justify-between items-center top-0 z-50  " >
+    <h1 class="text-xl font-bold ">K-Galaxy</h1>
+    <nav class="space-x-6">
+      <a href="#home" class="hover:text-blue-400">Home</a>
+      <a href="#jadwal" class="hover:text-blue-400">Jadwal</a>
+      <a href="#highlight" class="hover:text-blue-400">Highlight</a>
+      <a href="#testi" class="hover:text-blue-400">Testimoni</a>
+      <button class="bg-blue-600 px-3 py-1 rounded-full">Login</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative bg-cover bg-center h-[500px] min-h-screen" style="background-image: url('image/tc\ bts.jpg')">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">"JADWAL KONSER K-POP & K-DRAMA STAR 2025 – JAKARTA"</h2>
+      <p class="mt-2 text-lg">Tahun ini Jakarta dibanjiri konser spektakuler dari idol dan aktor favoritmu!</p>
+      <div class="mt-4 space-x-4">
+        <button class="bg-blue-600 px-4 py-2 rounded-lg">Lihat Jadwal Konser</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jadwal Konser -->
+  <section id="jadwal" class="bg-white text-black px-6 py-10">
+    <h3 class="text-2xl font-bold text-center mb-6">JADWAL KONSER</h3>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <!-- Card Konser -->
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="image/lmh.jpg" class="rounded mb-2" />
+        <h4 class="font-bold">Lee Min Ho - Minhoverse</h4>
+        <p>Tanggal: 19 April 2025<br>Tempat: ICE BSD Hall 5-6</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded">Beli Tiket</button>
+      </div>
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="image/my husben.jpg" class="rounded mb-2" />
+        <h4 class="font-bold">Lee Min Ho - Minhoverse</h4>
+        <p>Tanggal: 19 April 2025<br>Tempat: ICE BSD Hall 5-6</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded">Beli Tiket</button>
+      </div>
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="image/svt.jpg" class="rounded mb-2" />
+        <h4 class="font-bold">Lee Min Ho - Minhoverse</h4>
+        <p>Tanggal: 19 April 2025<br>Tempat: ICE BSD Hall 5-6</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded">Beli Tiket</button>
+      </div>
+      <div class="bg-gray-100 p-4 rounded shadow text-center">
+        <img src="image/nct.jpg" class="rounded mb-2" />
+        <h4 class="font-bold">Lee Min Ho - Minhoverse</h4>
+        <p>Tanggal: 19 April 2025<br>Tempat: ICE BSD Hall 5-6</p>
+        <button class="mt-2 bg-blue-600 text-white px-3 py-1 rounded">Beli Tiket</button>
+      </div>
+      <!-- Tambahkan card lainnya seperti di atas -->
+    </div>
+  </section>
+
+  <!-- Highlight dan Testimoni -->
+  <section id="highlight" class="px-6 py-10 bg-gray-900 text-white">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h4 class="text-xl font-bold mb-2">Star Performer</h4>
+        <img src="image/i'm hope.jpg" class="rounded" />
+      </div>
+      <div>
+        <h4 class="text-xl font-bold mb-2">Highlight Artis</h4>
+        <div class="grid grid-cols-2 gap-2">
+          <img src="image/bts.jpg" class="rounded" />
+          <img src="image/nctd.jpg" class="rounded" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni & FAQ -->
+  <section id="testi" class="px-6 py-10 bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div>
+      <h4 class="text-xl font-bold mb-4">Testimoni Penonton</h4>
+      <div class="bg-gray-200 p-4 rounded mb-2">""Konsernya luar biasa! Energi dari para idol bikin merinding.
+      Rasanya seperti mimpi bisa lihat mereka langsung."- Alifah, 16 tahun</div>
+      <div class="bg-gray-200 p-4 rounded mb-2"> "Lighting, sound, semuanya perfect! Aku teriak bareng ribuan
+      fans lain. Pengalaman yang nggak akan aku lupain."- Raka, 19 tahun</div>
+      <div class="bg-gray-200 p-4 rounded mb-2">"Beli tiketnya gampang, masuk venue juga tertib banget. 
+      Staff ramah, suasana seru, aku mau nonton lagi!!” - Meysa, 14 tahun</div>
+    </div>
+    <div>
+      <h4 class="text-xl font-bold mb-4">FAQ atau Info Pembelian</h4>
+      <details class="mb-2 bg-gray-200 p-4 rounded">
+        <summary class="cursor-pointer font-semibold">Bagaimana cara membeli tiket?</summary>
+        <p class="mt-2">Melalui situs resmi atau aplikasi partner kami.</p>
+      </details>
+      <details class="mb-2 bg-gray-200 p-4 rounded">
+        <summary class="cursor-pointer font-semibold">Apa saja metode pembayaran yang diterima?</summary>
+        <p class="mt-2">Kartu kredit, transfer bank, dan e-wallet.</p>
+      </details>
+      <details class="mb-2 bg-gray-200 p-4 rounded">
+        <summary class="cursor-pointer font-semibold">Bisakah saya mendapatkan refund jika batal?</summary>
+        <p class="mt-2">Tergantung pada ketentuan refund konser tersebut.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white px-6 py-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div>
+      <h5 class="font-bold">Kontak Kami</h5>
+      <p>Jl. ada-ada aja<br>Email: apaya@gmail.com<br>Telepon: (986) 13456789878</p>
+    </div>
+    <div>
+      <h5 class="font-bold">Ikuti Sosial Media Kami</h5>
+      <p>Facebook: @k-galaxy_Ofc<br>Instagram: @k-galaxy_id<br>X: @K-Galaxy_ID</p>
+    </div>
+    <div>
+      <h5 class="font-bold">Berlangganan Newsletter</h5>
+      <p>Dapatkan info jadwal konser terbaru, promo tiket, dan giveaway eksklusif langsung ke email kamu!</p>
+    </div>
+  </footer>
+
+</body>
+</html>
